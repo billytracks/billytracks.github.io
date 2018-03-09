@@ -37,7 +37,17 @@ ul{
 	list-style: none;
 	justify-content:space-around;
     align-content: flex-end;
+	
 	}
+nav ul li{
+	padding:5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration:none;
+	background-color:#C5AECD;
+	border-style:ridge;
+	
+}
 .about{
 	position: fixed;
   	left: 25%;
@@ -49,6 +59,11 @@ ul{
 	justify-content: space-around;
 	
 }
+nav ul li a{
+	color:white;
+padding color: #806E84;
+}
+
 .enlaces{
 	position: fixed;
   	left: 25%;
@@ -56,9 +71,21 @@ ul{
     width: 50%;
     height: 600px;
 	display: flex;
-	justify-content: space-around;
+	justify-content:space-around;
+	
 	
 }
+div p a{
+	padding:5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration:none;
+	background-color:#C5AECD;
+	border-style:ridge;
+    color: white;
+    padding color: #806E84;
+}
+
 .slider {
 	width: 95%;
 	margin: auto;
@@ -87,16 +114,16 @@ ul{
 
 
 
-}
+.video1{
+	margin-top: 20%;
+	margin-right: auto;
 
-.hola{
-	border:solid orange 2px;
-	width: 100%;
-	height: 100%;
-	display: block;
-	
 }
+.video2{
+	margin-top: 20%;
+	margin-left: auto;
 
+}
 @keyframes cambio {
 	0% {margin-left: 0;}
 	20% {margin-left: 0;}
@@ -109,4 +136,7 @@ ul{
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
-}
+
+	
+	
+
