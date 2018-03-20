@@ -37,7 +37,54 @@ ul{
 	list-style: none;
 	justify-content:space-around;
     align-content: flex-end;
+	
 	}
+nav ul li{
+	padding:5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration:none;
+	background-color:#C5AECD;
+	border-style:ridge;
+	
+}
+.imgprincipal{
+	position: fixed;
+	top:60px;
+}
+.contacto{
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 60px 40px 60px;
+   position: fixed;
+  	left: 25%;
+   top: 25%;
+    width: 50%;
+    background-color:#FFFFFF;
+    height: 600px;
+	box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+}
+.contacto label{
+	display:block;
+	font-weight: bold;
+	font-size: 20px;
+}
+.contacto div{
+	margin-bottom: 25px;
+	margin-left: 60px;
+}
+	.contacto input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 294px; 
+    border: 1px solid #CED5D7;
+    resize: none; 
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 20px 0;
+}
+.contacto input[type='text']:focus, .contacto textarea:focus{
+    outline: none; 
+    box-shadow:0 0 0 3px #dde9ec;
+}
 .about{
 	position: fixed;
   	left: 25%;
@@ -49,6 +96,35 @@ ul{
 	justify-content: space-around;
 	
 }
+.center{
+	position: fixed;
+  	left: 25%;
+    top: 25%;
+    width: 50%;
+    background-color:#FFFFFF;
+    height: 600px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 40px;
+	color:#A983B0;
+	text-align: center;
+	
+}
+nav ul li a{
+	color:white;
+
+}
+.lateral{
+	position: fixed;
+  	left: 2%;
+    top: 25%;
+    width: 300px;
+    background-color:#FFFFFF;
+    height: 600px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
 .enlaces{
 	position: fixed;
   	left: 25%;
@@ -56,9 +132,32 @@ ul{
     width: 50%;
     height: 600px;
 	display: flex;
-	justify-content: space-around;
+	justify-content:space-around;
+	
 	
 }
+.links{
+	position: fixed;
+  	left: 80%;
+    top: 25%;
+    width: 250px;
+  
+    height: 600px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+div p a{
+	padding:5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration:none;
+	background-color:#C5AECD;
+	border-style:ridge;
+    color: white;
+ 
+}
+
 .slider {
 	width: 95%;
 	margin: auto;
@@ -70,7 +169,7 @@ ul{
 	display: flex;
 	padding: 0;
 	width: 400%;
-	animation: cambio 20s infinite alternate linear;
+	animation: cambio 10s infinite alternate linear;
 	
 	
 }
@@ -86,16 +185,6 @@ ul{
 }
 
 
-
-}
-
-.hola{
-	border:solid orange 2px;
-	width: 100%;
-	height: 100%;
-	display: block;
-	
-}
 
 .video1{
 	margin-top: 20%;
@@ -119,4 +208,10 @@ ul{
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
-}
+	
+
+	
+
+	
+	
+
