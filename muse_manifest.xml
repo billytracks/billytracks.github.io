@@ -1,0 +1,46 @@
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="andreaguilar.com" resolutions="1x" timestamp="1528731184725">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_a-master.css" crc="452361257" ref="index"/>
+    <file name="index.css" crc="4088906717" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4216313831" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="474374037" ref="index"/>
+    <file name="jquery.musemenu.js" crc="493622299" ref="index"/>
+    <file name="jquery.watch.js" crc="460461809" ref="index"/>
+    <file name="webpro.js" crc="4143865194" ref="index"/>
+    <file name="musewpslideshow.js" crc="3781122836" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4030747646" ref="index"/>
+    <file name="touchswipe.js" crc="4200445185" ref="index"/>
+    <file name="form_check.php" crc="154010282" ref="index"/>
+    <file name="form_throttle.php" crc="266437015" ref="index"/>
+    <file name="form_process.php" crc="512629711" ref="index"/>
+    <file name="form-u1276.php" crc="131011207" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="require.js" crc="3951022091" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="concept.jpg" crc="4039991839" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="concept2.jpg" crc="232513978" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="concept3.jpg" crc="4222381902" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="concept4.jpg" crc="530397441" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="billy-crop-u1122.png" crc="299969708" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1132-11.png" crc="4045366456" ref="index"/>
+  </folder>
+  <file name="index.html" crc="340788915" seo="true" mt="1528731164430" redirect="true"/>
+</manifest>
